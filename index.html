@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manan Bhatia - A CS Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">Introduction</a></li>
+                    <!-- <li><a href="/services.html">Services</a></li> -->
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class ="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" width="32">
+                <img class="cross" src="cross.png" alt="" width ="30"   >
+            </div>
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi! I am</div>
+                    <div class="name">Manan Bhatia</div>
+                    <div class="about">Developer, Problem Solver, Player</div>
+                    <div class="moreabout">I am a developer , <span id="element"></span>
+                        </div>
+                    <div class="buttons">
+                        <!-- <a href="/cv.txt" target="_blank"> -->
+                        <a href="/Users/manan/Desktop/personal portfolio/Resume.pdf" download>
+                        <button class="btn">Download Resume</button></a>
+                        <a href="/contact.html"><button class="btn">Contact Me</button></a> 
+                    </div>
+                </div>
+                <div class="devPic">
+                    <img src="PXL_20230227_051040728_2-removebg-preview.png">
+                </div>
+            </div>
+        </div>
+    </div>    
+<script src="script.js"></script>
+<!-- <footer>
+    <div class="foot" style="background-color: bisque;">
+        <div class="first-foot">
+            <img src="github.png">
+            <h3>GitHub</h3>
+        </div>
+        <div class="second-foot">
+            <img src="gfg.png">
+            <h3>GfG</h3>
+        </div>
+        <div class="third-foot">
+            <img src="insta.png">
+            <h3>Instagram</h3>
+        </div>
+        <div class="fourth-foot"></div>
+    </div>
+</footer> -->
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['I love to learn new things. ', 'I love to learn new things &amp; Talks to ChatGPT more than a person.'],
+      typeSpeed: 50,
+      onComplete: function() {
+        var cursorElement = document.querySelector('.typed-cursor');
+        cursorElement.remove();
+      }
+    });
+</script>
+
+</body>
+</html>
