@@ -1,64 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@300&family=Source+Code+Pro:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    /* background: rdial-gradient(circle, rgb(186, 190, 210) 0%, rgb(238, 236, 214) 100%); */
 }
 
-.main{
+.main {
     padding: 17px;
+    width: 85vw;
 }
 
-.container{
+.mb-3 {
+    font-size: large;
+}
+
+.container {
     display: flex;
-    
 }
 
-.sidebar{
+.sidebar {
     background-color: rgb(215, 195, 195);
-    /* width: 15vw; */
-    /* width:220px; */
     font-family: 'Pathway Extreme', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
-    /* position: absolute; */
 }
-.sidebar nav{
+
+.sidebar nav {
     padding: 45px;
 }
-.sidebar nav li{
+
+.sidebar nav li {
     list-style: none;
     font-size: 20px;
     padding: 30px 0;
 }
 
-.sidebar nav li a{
+.sidebar nav li a {
    text-decoration: none;
    color: black;
 }
 
-.main{
-    /* background-color: yellow; */
-    width:85vw;
-}
-
-.infoContainer{
-    /* background-color: rgb(202, 9, 128); */
+.infoContainer {
     height: 58vh;
     width: 80vw;
     margin: 104px auto;
     display: flex;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
 }
-.devPic img{
+
+.devPic img {
     height: 58vh;
-    /* box-shadow: 10px 8px 6px rgb(181, 136, 136); */
     box-shadow: 0px 5px 13px 8px rgb(241, 119, 234);
 }
-.devInfo{
+
+.devInfo {
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -66,29 +62,32 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-.hello{
-        font-size: 1.8em;
+.hello {
+    font-size: 1.8em;
 }
-.name{
+
+.name {
     font-size: 1.8em;
     font-weight: bold;
     font-family: 'Pathway Extreme', sans-serif;
 }
-.about{
+
+.about {
     font-size: 1.3em;
 }
-.moreabout{
+
+.moreabout {
     font-size: 1.3em;
     margin-top: 16px;
     font-family: 'Pathway Extreme', sans-serif;
 }
 
-.buttons{
+.buttons {
     margin-top: 0.9em;
 }
 
-.btn{
-    padding:7px 12px;
+.btn {
+    padding: 7px 12px;
     border-radius: 18px;
     color: white;
     background-color: dodgerblue;
@@ -98,63 +97,58 @@
     cursor: pointer;
     box-shadow: 1px 2px 3px 4px rgb(35, 30, 30);
 }
-.btn:hover{
+
+.btn:hover {
     background-color: white;
-    color:dodgerblue;
+    color: dodgerblue;
     box-shadow: 3px 2px 9px 8px rgb(75, 30, 30);
 }
 
-.btn-sm{
+.btn-sm {
     font-size: 12px;
-    
 }
 
-.contactform{
-    padding: 0  34px;
-    /* padding-top:4px; */
+.contactform {
+    padding: 0 34px;
     font-family: 'Pathway Extreme', sans-serif;
     margin: 60px 0 0 11px;
 }
 
-.contactform h1{
+.contactform h1 {
     font-family: 'Source Code Pro', monospace;
-    /* padding: 12px 0; */
 }
 
-.contactform form div{
+.contactform form div {
     padding: 10px 0;
     display: flex;
     flex-direction: column;
 }
 
-.contactform form div input{
-    /* width: 30vw; */
+.contactform form div input {
     padding: 4px;
     border-radius: 11px;
     margin: 3px 0;
 }
 
-.contactform form{
+.contactform form {
     margin: 0 2%;
 }
 
-#emailHelp{
+#emailHelp {
     font-size: 10px;
     padding: 10px 0 0 20px;
 }
 
-#form-check{
+#form-check {
     flex-direction: row;
 }
 
-#form-check input{
+#form-check input {
     width: 20px;
     margin: 5px 1px;
 }
 
-/* blog CSS */
-
-.blogcontainer h2{
+.blogcontainer h2 {
     font-family: 'Source Code Pro', monospace;
     margin-top: 40px;
     font-weight: bold;
@@ -162,22 +156,24 @@
     margin-left: 10px;
 }
 
-.material{
+.material {
     font-size: 15px;
     font-family: 'Pathway Extreme', sans-serif;
     margin-left: 50px;
     margin-top: 20px;
 }
 
-#readmorebtn{
+#readmorebtn {
     margin: 10px 0 0 10px;
 }
-.blogcontainer h3{
+
+.blogcontainer h3 {
     margin-top: 15px;
     margin-left: 45px;
     font-size: 30px;
 }
-.myblog{
+
+.myblog {
     font-family: 'Pathway Extreme', sans-serif;
     margin-top: 95px;
     margin-left: 55px;
@@ -185,103 +181,80 @@
     font-size: 30px;   
 }
 
-.intro h2{
+.intro h2 {
     font-family: 'Pathway Extreme', sans-serif;
     margin: 70px 0 0 50px;
-
 }
-.intro p{
+
+.intro p {
     margin: 10px 0 0 60px;
 }   
 
-.skillcontainer{
+.skillcontainer {
     padding: 12px;
     margin-left: 50px;
 }
 
-.skill_t1{
+.skill_t1 {
     background-color: rgb(255, 0, 0);
     width: 171px;
     height: 7px;
     border-radius: 1px;
     border: 2px solid black;
 }
-.skill_t2{
+
+.skill_t2 {
     background-color: rgb(152, 131, 102);
     width: 121px;
     height: 7px;
     border-radius: 1px;
     border: 2px solid black;
 }
-.skill_t3{
+
+.skill_t3 {
     background-color: rgb(168, 105, 172);
     width: 91px;
     height: 7px;
     border-radius: 1px;
     border: 2px solid black;
 }
-.skillitem{
+
+.skillitem {
     display: flex;
     align-items: center;
     font-family: 'Source Code Pro', monospace;
 }
 
-.sidebarGo{
+.sidebarGo {
     transform: translate(-219px, 0px);
     position: absolute;
 }
 
 @media (max-width: 1236px) {
-    /* *{
-        background-color: rgb(213, 166, 166);
-    } */
-    /* .sidebar{ */
-        /* transform: translate(-219px, 0px); */
-        /* position: absolute; */
-    /* } */
-    .devPic{
+    .devPic {
         display: none;
     }
 }
+
 @media (max-width: 1200px) {
-    .sidebar{
-        /* transform: translate(-219px, 0px); */
+    .sidebar {
         position: absolute;
     }
 }
 
-
-
-.cross{
+.cross {
     margin-left: 179px;
-    /* margin-inline: 178px; */
     margin-top: 10px;
 }
-.ham{
+
+.ham {
     margin-left: 10px;
     margin-top: 10px;
 }
 
-.hamburger{
+.hamburger {
     position: absolute;
     cursor: pointer;
     top: 10px;
     left: 10px;
-
 }
-
-/* .foot{
-    display: flex;
-    height: 75px;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 22%;
-    font-family: 'Source Code Pro', monospace;
-
-}
-
-.foot img{
-    width: 40px;
-    border-radius: 50px;
-
-} */
