@@ -14,48 +14,48 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="intro.html">Introduction</a></li>
-                    <!-- <li><a href="/services.html">Services</a></li> -->
+                    <!-- <li><a href="services.html">Services</a></li> -->
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact Me</a></li>
-                    
                 </ul>
             </nav>
         </div>
-        <div class ="main">
-          <div class="hamburger">
-              <img class="ham" src="assets/ham.png" alt="" width="32">
-              <img class="cross" src="assets/cross.png" alt="" width ="30"   >
-          </div>
-        <div class ="main">
-            <div class="contactform">
-                <h1>Contact me for your general enquiry !</h1>
-                <form>
-                    <div class="mb-3">
-                        <label for="clientname" class="form-label">Name</label>
-                        <input type="name" class="form-control" id="clientname">
-                      </div>
-                    <div class="mb-3">
-                      <label for="clientemail" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="clientphone" class="form-label">Phone</label>
-                      <input type="phone" class="form-control" id="clientphone">
-                    </div>
-                    <div class="mb-3">
-                        <label for="clientenq" class="form-label">Enquiry</label>
-                        <input type="text" class="form-control" id="clientenq">
-                      </div>
-                    <div class="mb-3" id="form-check">
-                      <input type="checkbox" class="form-check-input" id="isclient">
-                      <label class="form-check-label" for="isclient">I want you to work on a project with me.</label>
-                    </div>
-                    <button type="submit" class="btn btn-sm">Submit</button>
-                  </form>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="assets/ham.png" alt="" width="32">
+                <img class="cross" src="assets/cross.png" alt="" width="30">
+            </div>
+            <div class="main">
+                <div class="contactform">
+                    <h1>Contact me for your general enquiry!</h1>
+                    <form action="https://formspree.io/f/xldrrjwg" method="POST">
+                        <div class="mb-3">
+                            <label for="clientname" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="clientname" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientemail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="clientemail" name="_replyto" aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientphone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="clientphone" name="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientenq" class="form-label">Enquiry</label>
+                            <input type="text" class="form-control" id="clientenq" name="enquiry" required>
+                        </div>
+                        <div class="mb-3" id="form-check">
+                            <input type="checkbox" class="form-check-input" id="isclient" name="project_request">
+                            <label class="form-check-label" for="isclient">I want you to work on a project with me.</label>
+                        </div>
+                        <button type="submit" class="btn btn-sm">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div> 
-    <script src="script.js"></script>   
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
