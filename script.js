@@ -29,6 +29,9 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         if (response.ok) {
             status.innerHTML = "Thanks for your submission!";
             form.reset();
+            setTimeout(() => {
+                status.innerHTML = "";
+            }, 2000); // Hide the message after 2 seconds
         } else {
             response.json().then(data => {
                 if (Object.hasOwn(data, 'errors')) {
