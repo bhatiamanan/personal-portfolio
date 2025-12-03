@@ -1,50 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manan Bhatia - A CS Enthusiast</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manan Bhatia - A CS Enthusiast</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar sidebarGo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="intro.html">Introduction</a></li>
-                    <!-- <li><a href="/services.html">Services</a></li> -->
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
-                    
-                </ul>
-            </nav>
-        </div>
-        <div class ="main">
-            <div class="hamburger">
-                <img class="ham" src="assets/ham.png" alt="" width="32">
-                <img class="cross" src="assets/cross.png" alt="" width ="30"   >
-            </div>
-        <div class ="main">
-            <div class="intro"> 
-            <h2>About Me!</h2>
-                    <p>I’m a backend engineer who enjoys building reliable systems that solve real operational challenges. I’ve worked on large-scale data workflows, microservices, and automation pipelines that improve efficiency and reduce manual effort. My experience includes creating vector-based semantic matching systems, designing backend processes for embedding generation and search, and deploying services that support high-volume product mapping.
+  <div class="container">
+    <aside class="sidebar sidebarGo" aria-label="Primary navigation">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="intro.html">Introduction</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </aside>
 
-I’ve also led the development of microservices that integrate with ERP systems, improving accuracy and cutting down on repetitive work through asynchronous messaging and workflow automation. Across projects, I focus on clean architecture, thoughtful data modeling, and solutions that make a measurable impact. I enjoy understanding complex problems, breaking them down, and delivering systems that are dependable and easy to maintain.
-                    </p><br><br>
-            <h2>My Skills</h2>
-                    <div class="skillcontainer">
-                        <div class="skillitem"> HTML:<div class="skill_t1"> </div> </div>
-                        <div class="skillitem">CSS:<div class="skill_t1"></div> </div>
-                        <div class="skillitem">JAVASCRIPT:<div class="skill_t2"></div> </div>
-                        <div class="skillitem">REACT:<div class="skill_t3"></div></div>
-                        <div class="skillitem">NODE:<div class="skill_t3"></div></div>
-                        <div class="skillitem">C++:<div class="skill_t1"></div></div>
-                    </div>
-            </div>
-        </div>
-    </div> 
-<script src="script.js"></script>
+    <main class="main" id="main-content">
+      <header class="header">
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <img class="ham" src="assets/ham.png" alt="open menu" width="32" height="32" />
+          <img class="cross" src="assets/cross.png" alt="close menu" width="30" height="30" />
+        </button>
+      </header>
+
+      <section class="intro">
+        <h2>About Me</h2>
+        <p>
+          I’m a backend engineer who enjoys building reliable systems that solve real operational challenges.
+          I’ve worked on large-scale data workflows, microservices, and automation pipelines that improve
+          efficiency and reduce manual effort. My experience includes building vector database powered semantic
+          matching systems, designing backend processes for embedding generation and search, and deploying services
+          that support high-volume product mapping.
+        </p>
+        <p>
+          I have led development of microservices that integrate with ERP systems, reducing repetitive work through
+          asynchronous messaging and workflow automation. I focus on clean architecture, thoughtful data modeling,
+          and solutions that produce measurable impact. I enjoy breaking down complex problems and delivering systems
+          that are dependable and maintainable.
+        </p>
+      </section>
+
+      <section class="skills" aria-label="Technical skills">
+        <h2>My Skills</h2>
+        <ul class="skill-list">
+          <li class="skill-item">
+            <span class="skill-name">HTML</span>
+            <span class="skill-meter" aria-hidden="true"></span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">CSS</span>
+            <span class="skill-meter" aria-hidden="true"></span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-meter" aria-hidden="true"></span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">React</span>
+            <span class="skill-meter" aria-hidden="true"></span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">Node</span>
+            <span class="skill-meter" aria-hidden="true"></span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">C++</span>
+            <span class="skill-meter" aria-hidden="true"></span>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
